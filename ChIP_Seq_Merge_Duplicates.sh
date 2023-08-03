@@ -22,7 +22,7 @@
 ##SBATCH --account=<deptname|lastname>
 
 # set max wallclock time  DD-HH:MM:SS
-#SBATCH --time=00-72:00:00
+#SBATCH --time=00-48:00:00
 
 # set a memory request
 #SBATCH --mem=100gb
@@ -43,16 +43,13 @@
 # Put your job commands here, including loading any needed
 # modules or diagnostic echos.
 
+
 source /home/mingyu.liu001/MyPythonEnv/bin/activate
-PATHTO=/hpcstor6/scratch01/m/mingyu.liu001/PDX_SE/young_computation-rose-feb35cb1d955
-export PATH=$PATH:$PATHTO
-module load samtools-1.10-gcc-10.2.0-gcazqa4
-module load bedtools2-2.27.1-gcc-10.2.0-d5nov5h
-module load r-4.0.3-gcc-10.2.0-wi7mlm6
 module load bwa-0.7.17-gcc-9.3.0-6zgicc2 
+module load samtools-1.10-gcc-10.2.0-gcazqa4
 module load python-2.7.18-gcc-10.2.0-h5x5w3p
 
-python Sample_MKDIR.py
+python ChIP_Seq_Merge_Duplicates.py
 
 
 
