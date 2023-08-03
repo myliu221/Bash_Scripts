@@ -52,7 +52,7 @@ module load r-4.0.3-gcc-10.2.0-wi7mlm6
 module load bwa-0.7.17-gcc-9.3.0-6zgicc2 
 module load python-2.7.18-gcc-10.2.0-h5x5w3p
 
-python SE_MKDIR.py
+python Sample_MKDIR.py
 
 
 

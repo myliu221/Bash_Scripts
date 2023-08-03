@@ -10,7 +10,7 @@ import subprocess
 import numpy as np
 
 
-sample_file = np.loadtxt("./SE_Samples_Name_Cellline.txt",dtype=str)
+sample_file = np.loadtxt("./Samples_Name.txt",dtype=str)
 
 sample_name = sample_file[:,1]
 
