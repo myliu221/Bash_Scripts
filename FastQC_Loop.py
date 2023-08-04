@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-ROSE SE
+FastQC
 
 By Mingyu Liu
 """
