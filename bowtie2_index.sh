@@ -45,7 +45,7 @@
 
 module load bowtie2-2.4.2-gcc-10.2.0-4o66eku 
 
-bowtie2-build /hpcstor6/scratch01/m/mingyu.liu001/hg19_reference/genome.fa hg19
+bowtie2-build /hpcstor6/scratch01/m/mingyu.liu001/Ecoli_reference/genome.fa Ecoli
 
 
 
